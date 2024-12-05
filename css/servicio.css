@@ -1,0 +1,141 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: large;
+    color: #ffffff;
+    background-color: #000000;
+    font-family: 'century gothic', 'Echo Grotesque';
+}
+ 
+header{
+    width: 100%;
+    height: 0%;
+    padding: em;
+    position: relative;  
+    
+    }
+
+.logo {
+    max-width: 15%; /* Ajusta el tamaño del logo */
+    height: auto; /* Mantiene la proporción */
+    margin-right: 5%; /* Espacio entre el logo y el menú */
+    position: absolute;
+    
+}
+
+
+    
+nav{ 
+    
+    position: absolute;
+     padding: 8%;
+left: 10em;
+  
+    }
+
+    
+.menu
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    position:  absolute;
+    padding : 5%; /* Asegúrate de que no haya padding por defecto */
+    left: 15%;
+    top: 30%;
+}
+.menu li{
+    border: 2px solid rgb(254, 254, 255); /* Borde blanco para cada elemento */
+    border-radius: 25px; /* Bordes redondeados para un efecto ovalado */
+    margin: 0 8px; /* Espacio entre los elementos */
+}
+ 
+
+.menu li a {
+    display: block;
+    padding: 10px 15px;
+    color: rgb(254, 254, 255); 
+    font-size: 15px;
+    text-decoration: none;
+    background-color:2px solid rgba(255, 255, 255, 0); /* Color transparente */
+    border-radius: 25px; /* Mantén el borde redondeado en cada enlace */
+    transition: background-color 0.3s; /* Transición suave para el hover */
+}
+
+.menu li:hover{
+    background-color: rgba(241, 118, 4, 0.5);
+    border-radius: 50px; /* Mantén el borde redondeado en hover */
+    transition: background-color 0.3s; /* Transición suave para el hover */
+} 
+  
+
+
+.register-button {
+    position: absolute; /* Posiciona el botón de forma absoluta */
+    left: 90%;
+    top: 14%;
+    transform: translateY(-50%); /* Ajusta la posición para que esté centrado verticalmente */
+    background-color: rgba(241, 118, 4, 0.5); /* Color de fondo con transparencia */
+    color: #fff; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 25px; /* Bordes redondeados para un aspecto ovalado */
+    text-decoration: none; /* Sin subrayado */
+    transition: background-color 0.3s; /* Transición suave para el hover */
+}
+
+.register-button:hover {
+    background-color: rgba(241, 118, 4, 0.7); /* Cambio de color al pasar el ratón */
+}
+
+
+.footer { 
+    padding: 1% ; 
+    text-align: center;
+    position: relative;
+    background-color: #121212;
+    top: 100px;
+}
+
+.footer-content {
+    display: flex; 
+  
+  
+}
+
+.footer-section {
+    flex: 1;  
+  
+}
+
+.footer-section h3 {
+    margin-bottom: 15px;
+    color: #f17604; 
+}
+
+.footer-section ul {
+    list-style-type: none;  
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+    color: #fff;  
+}
+
+.footer-section ul li a {
+    color: #fff;  
+    text-decoration: none;  
+    transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #d59f7a;  
+}
+ 
+  footer small{
+     
+ text-align: left;
+  }
+
+  
+ 

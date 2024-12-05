@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Librada Altagracia Arias Ureña">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOLICITUD DE SERVICIO</title>
+    <link rel="stylesheet" type="text/css" href="css/form.css">
+</head>
+<body>
+<header>
+    <div class="logo">
+        <img src="img/logofran.png" width="150" height="165" alt="Logotipo">
+    </div>
+</header>
+
+<div class="container">
+    <h1>Realiza tu solicitud de uno o más de nuestros servicios!</h1>
+
+    <form action="mailto:libradaaltagraciaarias@gmail.com" method="post">
+        <fieldset>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required>
+
+            <label for="apellidos">Apellidos</label>
+            <input type="text" name="apellidos" id="apellidos" placeholder="Ingrese sus apellidos" required>
+
+            <label for="direccion">Dirección</label>
+            <input type="text" name="direccion" id="direccion" placeholder="Ingrese Dirección" required>
+
+            <label for="correo">E-mail</label>
+            <input type="email" name="correo" id="correo" placeholder="Ingrese su E-mail" required>
+
+            <label>Selecciona el tipo de servicio</label>
+            <div class="radio-group">
+                <input type="radio" name="servicio" value="Instalación" id="servicio-instalacion">
+                <label for="servicio-instalacion">Instalación</label>
+                <input type="radio" name="servicio" value="Reparación" id="servicio-reparacion">
+                <label for="servicio-reparacion">Reparación</label>
+                <input type="radio" name="servicio" value="Mantenimiento" id="servicio-mantenimiento">
+                <label for="servicio-mantenimiento">Mantenimiento</label>
+            </div>
+
+            <label for="ci">Selecciona el servicio</label>
+            <select id="ci" name="ci">
+                <option value="Aire Acondicionados" selected="selected"> </option>
+                <option value="Aire Acondicionados">Aire Acondicionados</option>
+                <option value="Alarma de seguridad">Alarma de seguridad</option>
+                <option value="Cámaras de seguridad">Cámaras de seguridad</option>
+                <option value="Cerraduras Inteligentes">Cerraduras Inteligentes</option>
+                <option value="Inversores">Inversores</option>
+            </select>
+
+            <div class="form-actions">
+                <button type="reset">Borrar datos</button>
+                <button type="submit">Enviar</button>
+            </div>
+
+            <p>Nota: Su solicitud será enviada al correo proporcionado.</p>
+        </fieldset>
+    </form>
+</div>
+
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-section">
+            <h3>Menú</h3>
+            <ul>
+                <li><a href="http://127.0.0.1:5500/index.html">Principal</a></li>
+                <li><a href="http://127.0.0.1:5500/Servicioss.html">Servicios</a></li>
+                <li><a href="http://127.0.0.1:5500/Nosotros.html">Nosotros</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Contacto</h3>
+            <ul>
+                <li>franklininversores@gmail.com</li>
+                <li>000-000-0000</li>
+                <li>Los Jardines, Santiago</li>
+            </ul>
+        </div>
+    </div>
+    <small>by Delanie & Librada Arias</small>
+</footer>
+
+</body>
+</html>
